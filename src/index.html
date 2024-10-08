@@ -20,7 +20,9 @@
 
             <div class="flex items-center gap-16">
               <nav>
-                <ul class="flex items-center gap-16 text-white text-0xl font-serif">
+                <ul
+                  class="flex items-center gap-16 text-white text-0xl font-serif"
+                >
                   <li><a href="#">Úvod</a></li>
                   <li><a href="#">O nás</a></li>
                   <li><a href="#">Lidé</a></li>
@@ -105,16 +107,16 @@
       </section>
     </header>
     <main class="relative">
-      <section class="bg-orange pt-10 pb-8">
+      <section class="bg-orange pt-10 pb-56">
         <div class="section">
-          <div class="flex justify-center items-center flex-col mb-5">
-            <h2 class="h2-subtitle mb-5">
+          <div class="flex justify-center items-center flex-col mb-12 lg:mb-40">
+            <h2 class="h2-subtitle mb-5 text-xl lg:text-5xl text-center">
               Vítejte ve vinařství Davinus, kde
               <br />
               tradice a vášeň tvoří výjimečná vína.
             </h2>
 
-            <p class="p-subtitle">
+            <p class="p-subtitle text-center">
               We offer wines with attributes from traditional varieties, for
               which local vineyard setting seems to be optimal, particularly
               Pinot Blanc, Pinot Gris, Moravian Muscat, Blauer Portigieser,
@@ -123,11 +125,76 @@
             </p>
           </div>
 
-          <div class="">
-
-
-
+          <div class="block lg:flex flex-col lg:flex-row gap-36">
+            <div class="w-full lg:w-2/5">
+              <h2 class="h2-subtitle text-xl lg:text-4xl mb-9 text-left">
+                Miroslav Majer
+              </h2>
+              <p class="p-subtitle mb-5 text-left">
+                sbíral své zkušenosti při více než desetiletém působení ve
+                vedení vinařských firem na jižní Moravě, kde měl na starosti
+                nejen obchod, ale byl v každodenním styku i s celým výrobním
+                procesem, a to napříč všemi podoblastmi. Tuto skvělou školu
+                zúročil nejen při samotném obchodování s vínem, ale i jako
+                předseda a člen hodnotitelských komisí na mezinárodních i
+                tuzemských soutěžích vín.
+              </p>
+              <p class="p-subtitle text-left">
+                Jmenujme například Selection Mondiales des Vins Canada, Concours
+                Mondiales du Sauvignon Blanc France, Premios Zarcillo Spain, Les
+                Grands Concours du Monde Strasbourg, AWC Vienna, Vinaria
+                Bulgaria, Vino Slovenija, Salon vín ČR, METRO Víno roka, Prague
+                Wine Trophy atd. Aktuálně se výrazně podílí na vzniku Asociace
+                obchodníků s vínem České republiky, a to z pozice jejího
+                prezidenta.
+              </p>
+            </div>
+            <div class="w-full lg:w-3/5 relative">
+              <img
+                class="mt-10 mb-5 w-full lg:w-96 rounded-2xl relative lg:top-40"
+                src="../assets/img/friends.png"
+                alt="Prátelé"
+              />
+              <img
+                class="relative lg:absolute w-full rounded-2xl border border-black custom-img-position"
+                src="../assets/img/tastewine.png"
+                alt="Prátelé"
+              />
+            </div>
           </div>
+        </div>
+      </section>
+
+      <section class="bg-white section">
+        <div class="relative overflow-hidden custom-v-img mx-auto">
+          <img
+            class="rounded-lg video-img w-full h-full absolute left-0 right-0 inset-0 object-cover object-center "
+            src="../assets/img/video-cover.jpg"
+            alt="video cover"
+          />
+
+          <div class="btnWrap ">
+            <div class="flex text-white">Nadpis</div>
+            <a
+              id="play-video"
+              class="flex justify-center items-center h-full"
+              href="#"
+            >
+              <svg class="icon" width="80" height="80">
+                <use href="../assets/svg/sprite.svg#icon-play"></use>
+              </svg>
+            </a>
+          </div>
+          <iframe
+            id="video"
+            src="https://player.vimeo.com/video/132931776?title=0&byline=0"
+            width="100%"
+            height="574px";
+            frameborder="0"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen
+          ></iframe>
         </div>
       </section>
     </main>

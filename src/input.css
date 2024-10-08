@@ -5,7 +5,8 @@
     src: url('~/assets/fonts/1.42533.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
-  }
+}
+
 @font-face {
     font-family: 'IvyMode';
     src: url('~/assets/fonts/1.42537.otf') format('opentype');
@@ -29,23 +30,40 @@ body {
     @apply max-w-[1200px] mx-auto px-2.5;
 }
 
-.h1-title{
+.h1-title {
     @apply leading-7 lg:leading-[120%] max-w-[410px];
 
 }
 
-.h2-subtitle{
-    @apply leading-7 lg:leading-[140%] text-center text-xl lg:text-5xl font-bold tracking-[6%] max-w-[879px] font-serif;
+.h2-subtitle {
+    @apply leading-7 lg:leading-[140%] font-bold tracking-[6%] max-w-[879px] font-serif;
 
 
 }
 
-.p-subtitle{
+.p-subtitle {
 
-    @apply leading-7 lg:leading-[140%] text-center text-0xl font-light tracking-[6%] max-w-[775px];
+    @apply leading-7 lg:leading-[140%] text-0xl font-light tracking-[6%] max-w-[775px];
 
 
 }
 
+.custom-img-position {
+
+    @apply lg:-bottom-[-160px] lg:-left-[-150px] xl:-left-[-280px] lg:w-[350px];
 
 
+}
+
+.btnWrap {
+
+    @apply absolute h-[574px] text-center z-20 align-middle table w-full rounded-lg;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+
+.custom-v-img {
+
+    @apply h-[574px] max-w-[1000px] -bottom-[-70px];
+
+}
