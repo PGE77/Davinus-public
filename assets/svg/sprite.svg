@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
 <symbol id="icon-logo" width="154" height="40" viewBox="0 0 154 40" >
 <mask id="mask0_7_76" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="154" height="40">
 <rect width="154" height="40" fill="url(#pattern0_7_76)"/>
@@ -14,7 +14,7 @@
 </defs>
 </symbol>
 
-<symbol id="icon-facebook" viewBox="0 0 29 29" width="29" height="29">
+<symbol id="icon-facebook" viewBox="0 0 29 29" >
 <g clip-path="url(#clip0_8_246)">
 <circle cx="14.4" cy="14.4" r="14.4" fill="#FFE3C1"/>
 <g clip-path="url(#clip1_8_246)">
@@ -31,7 +31,7 @@
 </defs>
 </symbol>
 
-<symbol id="icon-instagram" viewBox="0 0 29 29" width="29" height="29">
+<symbol id="icon-instagram" viewBox="0 0 29 29">
 <g clip-path="url(#clip0_8_251)">
 <circle cx="14.4" cy="14.4" r="14.4" fill="#FFE3C1"/>
 <g clip-path="url(#clip1_8_251)">

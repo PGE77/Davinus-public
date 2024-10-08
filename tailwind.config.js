@@ -22,19 +22,21 @@ module.exports = {
       "3xl": "30px",
       "4xl": "38px",
       "5xl": "43px",
-      "6xl": "117px",
+      "6xl": "59px",
     },
     extend: {
       height: {
         coverHeight: "655px",
       },
       backgroundImage: {
-        coverGradient: 'linear-gradient(360deg, rgba(0, 0, 0, 0.79) 0%, rgba(0, 0, 0, 0) 100%)',
+        'coverGradient': 'linear-gradient(360deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%)', // Dolní gradient
+        'coverGradientTop': 'linear-gradient(180deg, rgba(0, 0, 0, 0.79) 0%, rgba(0, 0, 0, 0) 100%)', // Horní gradient
       },
+
       boxShadow: {},
       fontFamily: {
-        sans: [""],
-        serif: [""],
+        sans: ["Poppins"],
+        serif: ["IvyMode"],
       },
     },
   },

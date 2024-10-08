@@ -1,46 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Davinus</title>
-    <link href="/assets/css/output.css" rel="stylesheet">
+    <link href="../assets/css/output.css" rel="stylesheet" />
+  </head>
 
+  <body>
+    <header class="h-coverHeight">
+      <section class="relative w-full">
+        <div class="section relative z-20">
+          <div class="flex justify-between items-center py-5">
+            <a href="/">
+              <svg class="icon" width="154" height="40">
+                <use href="../assets/svg/sprite.svg#icon-logo"></use>
+              </svg>
+            </a>
 
+            <div class="flex items-center gap-16">
+              <nav>
+                <ul class="flex items-center gap-16 text-white text-0xl font-serif">
+                  <li><a href="#">Úvod</a></li>
+                  <li><a href="#">O nás</a></li>
+                  <li><a href="#">Lidé</a></li>
+                  <li><a href="#">Akce</a></li>
+                  <li><a href="#">Kontakt</a></li>
+                </ul>
+              </nav>
 
-
-</head>
-
-<body>
-
-    <header>
-
-        <section class="relative w-full">
-            <div class="section relative z-20">
-                rujtzrutzrutzuztutzu
-
+              <div>
+                <ul class="flex gap-3">
+                  <li>
+                    <a href="/">
+                      <svg class="icon" width="29" height="29">
+                        <use
+                          href="../assets/svg/sprite.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <svg class="icon" width="29" height="29">
+                        <use
+                          href="../assets/svg/sprite.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <svg class="icon" width="29" height="29">
+                        <use href="../assets/svg/sprite.svg#icon-youtube"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div
-                class="absolute left-0 right-0 bottom-0 top-0 h-coverHeight after:absolute after:left-0 after:top-0 after:w-full after:h-full after:inline-block custom-after after:bg-coverGradient overflow-hidden ">
-
-                <img class="w-full h-full absolute left-0 right-0 inset-0 object-cover object-center max-w-none"
-                    src="/assets/img/cover-photo.jpg" alt="Cover photo">
+          </div>
+        </div>
+        <div
+          class="absolute left-0 right-0 bottom-0 top-0 h-coverHeight overflow-hidden"
+        >
+          <img
+            class="w-full h-full absolute left-0 right-0 inset-0 object-cover object-center max-w-none"
+            src="/assets/img/cover-photo.jpg"
+            alt="Cover photo"
+          />
+          <div
+            class="absolute left-0 top-0 w-full h-1/2 bg-coverGradientTop"
+          ></div>
+          <div class="absolute left-0 bottom-0 w-full h-1/2 bg-coverGradient">
+            <div class="relative w-full h-full px-2.5">
+              <div
+                class="flex flex-col gap-5 lg:pt-8 justify-center items-center"
+              >
+                <h1
+                  class="text-center text-white font-semibold text-3xl lg:text-6xl h1-title font-serif"
+                >
+                  Prostě něco neskutečného!
+                </h1>
+                <p
+                  class="text-white text-center leading-6 font-normal text-base lg:text-xl"
+                >
+                  Kvalita vína je úzce spojena s kázní a kreativitou a přesně
+                  tyto vlastnosti
+                  <br />
+                  využívá DAVINUS s moravskými vinaři při spoluvytváření
+                  vlastních produktových řad.
+                </p>
+              </div>
+              <div
+                class="absolute left-1/2 transform -translate-x-1/2 bottom-0"
+              >
+                <svg class="icon" width="118" height="46">
+                  <use href="../assets/svg/sprite.svg#icon-arrow"></use>
+                </svg>
+              </div>
             </div>
-
-        </section>
-
-
+          </div>
+        </div>
+      </section>
     </header>
+    <main class="relative">
+      <section class="bg-orange pt-10 pb-8">
+        <div class="section">
+          <div class="flex justify-center items-center flex-col mb-5">
+            <h2 class="h2-subtitle mb-5">
+              Vítejte ve vinařství Davinus, kde
+              <br />
+              tradice a vášeň tvoří výjimečná vína.
+            </h2>
+
+            <p class="p-subtitle">
+              We offer wines with attributes from traditional varieties, for
+              which local vineyard setting seems to be optimal, particularly
+              Pinot Blanc, Pinot Gris, Moravian Muscat, Blauer Portigieser,
+              Saint Laurent, Lemberger, followed by Welschriesling, Grüner
+              Veltliner, Neuburger, Müller-Thurgau, Riesling, Chardonnay…
+            </p>
+          </div>
+
+          <div class="">
 
 
 
+          </div>
+        </div>
+      </section>
+    </main>
 
-
-
-
-
-    <script src="/assets/js/script.js"></script>
-</body>
-
+    <script src="../assets/js/script.js"></script>
+  </body>
 </html>
