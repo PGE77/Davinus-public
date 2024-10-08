@@ -67,3 +67,18 @@ body {
     @apply h-[574px] max-w-[1000px] -bottom-[-70px];
 
 }
+
+.max-custom {
+
+    @apply max-w-[1042px] mx-auto;
+
+}
+
+.w-250 {
+    @apply w-[243px];
+}
+
+.swiper-container {
+    @apply h-[350px];
+}
+

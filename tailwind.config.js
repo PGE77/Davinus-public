@@ -22,6 +22,7 @@ module.exports = {
       "3xl": "30px",
       "4xl": "38px",
       "5xl": "43px",
+      "5xl5":"50px",
       "6xl": "59px",
     },
     extend: {
