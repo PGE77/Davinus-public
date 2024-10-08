@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
       event.preventDefault();
     });
 
-
     const swiper = new Swiper(".swiper-container", {
         slidesPerView: "2.5",
         spaceBetween: 20,
@@ -26,6 +25,37 @@ document.addEventListener('DOMContentLoaded', function() {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
+        breakpoints: {
+            1920: {
+              slidesPerView: 2.5,
+              spaceBetween: 20
+            },
+            1024: {
+              slidesPerView: 2.5,
+              spaceBetween: 15
+            },
+            664: {
+              slidesPerView: 1.5,
+              spaceBetween: 15
+            },
+            0: {
+              slidesPerView: 1,
+              spaceBetween: 15
+            }
+          }
       });
+
+      document.querySelector('.swiper-button-prev-custom').addEventListener('click', function() {
+        mySwiper.slidePrev(); // slidePrev() přesune Swiper na předchozí slide
+      });
+
+      document.querySelector('.swiper-button-next-custom').addEventListener('click', function() {
+        mySwiper.slideNext(); // slideNext() přesune Swiper na další slide
+      });
+
+
+
   });
+
+
 
