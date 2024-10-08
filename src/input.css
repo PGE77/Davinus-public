@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply text-md md:text-base font-normal text-black bg-white font-sans;
+
+
+}
+.section {
+    @apply max-w-[1364px] mx-auto px-2.5;
+}
