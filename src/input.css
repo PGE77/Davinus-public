@@ -11,3 +11,7 @@ body {
 .section {
     @apply max-w-[1364px] mx-auto px-2.5;
 }
+
+.custom-after::after {
+    content: '';
+  }

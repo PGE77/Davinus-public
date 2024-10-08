@@ -6,10 +6,8 @@ module.exports = {
       transparent: "transparent",
       white: "#ffffff",
       black: "#333333",
-      orange:"#FEF5E4",
-      orangeLight:"#FFE3C1",
-
-
+      orange: "#FEF5E4",
+      orangeLight: "#FFE3C1",
     },
     fontSize: {
       xxs: "10px",
@@ -17,22 +15,23 @@ module.exports = {
       sm: "13px",
       md: "14px",
       base: "15px",
-      "0xl":"17px",
+      "0xl": "17px",
       "1xl": "18px",
-      "xl":"20px",
+      "xl": "20px",
       "2xl": "24px",
-      "3xl":"30px",
+      "3xl": "30px",
       "4xl": "38px",
       "5xl": "43px",
       "6xl": "117px",
     },
     extend: {
-     backgroundImage: {
-
+      height: {
+        coverHeight: "655px",
       },
-      boxShadow: {
-
+      backgroundImage: {
+        coverGradient: 'linear-gradient(360deg, rgba(0, 0, 0, 0.79) 0%, rgba(0, 0, 0, 0) 100%)',
       },
+      boxShadow: {},
       fontFamily: {
         sans: [""],
         serif: [""],
@@ -41,4 +40,3 @@ module.exports = {
   },
   plugins: [],
 };
-

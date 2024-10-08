@@ -554,16 +554,66 @@ video {
   display: none;
 }
 
-.text-3xl {
-  font-size: 30px;
+.absolute {
+  position: absolute;
 }
 
-.font-bold {
-  font-weight: 700;
+.relative {
+  position: relative;
 }
 
-.underline {
-  text-decoration-line: underline;
+.inset-0 {
+  inset: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.h-coverHeight {
+  height: 655px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-none {
+  max-width: none;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 
 body {
@@ -588,4 +638,43 @@ body {
   max-width: 1364px;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
+}
+
+.custom-after::after {
+  content: '';
+}
+
+.after\:absolute::after {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:left-0::after {
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.after\:top-0::after {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.after\:inline-block::after {
+  content: var(--tw-content);
+  display: inline-block;
+}
+
+.after\:h-full::after {
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.after\:w-full::after {
+  content: var(--tw-content);
+  width: 100%;
+}
+
+.after\:bg-coverGradient::after {
+  content: var(--tw-content);
+  background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.79) 0%, rgba(0, 0, 0, 0) 100%);
 }
