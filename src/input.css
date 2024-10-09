@@ -98,6 +98,14 @@ body {
 
 }
 
+.square-37 {
+
+    @apply w-[37px] h-[37px];
+
+}
+
+
+
 .max-custom {
 
     @apply max-w-[1042px] mx-auto;
