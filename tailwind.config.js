@@ -8,7 +8,8 @@ module.exports = {
       black: "#333333",
       orange: "#FEF5E4",
       orangeLight: "#FFE3C1",
-      
+      orangeDark:"#C57847",
+
     },
     fontSize: {
       xxs: "10px",
@@ -28,6 +29,9 @@ module.exports = {
       "6xl": "59px",
     },
     extend: {
+      screens: {
+        '3xl': '1600px',
+      },
       height: {
         coverHeight: "655px",
       },

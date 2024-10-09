@@ -17,7 +17,7 @@
               <img src="../assets/svg/logo.svg" alt="Logo" />
             </a>
 
-            <div class="flex items-center gap-16">
+            <div class="hidden lg:flex items-center gap-16">
               <nav>
                 <ul
                   class="flex items-center gap-16 text-white text-0xl font-serif"
@@ -32,20 +32,28 @@
 
               <div>
                 <div class="flex gap-3">
-                  <a href="/">
-                    <svg class="icon" width="29" height="29">
+                  <a
+                    class="rounded-full flex justify-center items-center bg-orangeLight square-29"
+                    href="/"
+                  >
+
+                    <svg width="28" height="28" class="fill-orangeDark">
                       <use href="../assets/svg/sprite.svg#icon-facebook"></use>
                     </svg>
                   </a>
-
-                  <a href="/">
-                    <svg class="icon" width="29" height="29">
+                  <a
+                    class="rounded-full flex justify-center items-center bg-orangeLight"
+                    href="/"
+                  >
+                    <svg width="29" height="29" class="fill-orangeDark">
                       <use href="../assets/svg/sprite.svg#icon-instagram"></use>
                     </svg>
                   </a>
-
-                  <a href="/">
-                    <svg class="icon" width="29" height="29">
+                  <a
+                    class="rounded-full flex justify-center items-center bg-orangeLight"
+                    href="/"
+                  >
+                    <svg width="29" height="29" class="fill-orangeDark">
                       <use href="../assets/svg/sprite.svg#icon-youtube"></use>
                     </svg>
                   </a>
@@ -68,10 +76,10 @@
           <div class="absolute left-0 bottom-0 w-full h-1/2 bg-coverGradient">
             <div class="relative w-full h-full px-2.5">
               <div
-                class="flex flex-col gap-5 lg:pt-8 justify-center items-center"
+                class="flex flex-col gap-5 lg:pt-8 justify-center items-center pt-16 md:pt-0"
               >
                 <h1
-                  class="text-center text-white font-semibold text-3xl lg:text-6xl h1-title font-serif"
+                  class="text-center text-white font-semibold text-5xl lg:text-6xl leading-120 font-serif"
                 >
                   Prostě něco neskutečného!
                 </h1>
@@ -98,10 +106,10 @@
       </section>
     </header>
     <main class="relative">
-      <section class="bg-orange pt-10 pb-56">
+      <section class="bg-orange pt-10 pb-64">
         <div class="section">
           <div class="flex justify-center items-center flex-col mb-12 lg:mb-40">
-            <h2 class="h2-subtitle mb-5 text-xl lg:text-5xl text-center">
+            <h2 class="leading-140 mb-5 text-3xl lg:text-5xl text-center">
               Vítejte ve vinařství Davinus, kde
               <br />
               tradice a vášeň tvoří výjimečná vína.
@@ -118,7 +126,7 @@
 
           <div class="block lg:flex flex-col lg:flex-row gap-36">
             <div class="w-full lg:w-2/5">
-              <h2 class="h2-subtitle text-xl lg:text-4xl mb-9 text-left">
+              <h2 class="leading-140 text-3xl lg:text-4xl mb-9 text-left">
                 Miroslav Majer
               </h2>
               <p class="p-subtitle lg:text-0xl mb-5 text-left">
@@ -142,12 +150,12 @@
             </div>
             <div class="w-full lg:w-3/5 relative">
               <img
-                class="mt-10 mb-5 w-full lg:w-96 rounded-2xl relative lg:top-40"
+                class="mt-10 mb-5 w-custom-498 rounded-2xl relative lg:top-40"
                 src="../assets/img/friends.png"
                 alt="Prátelé"
               />
               <img
-                class="relative lg:absolute w-full rounded-2xl border border-black custom-img-position"
+                class="relative lg:absolute w-custom-388 rounded-2xl border border-black custom-img-position"
                 src="../assets/img/tastewine.png"
                 alt="Prátelé"
               />
@@ -178,7 +186,7 @@
             </div>
             <a
               id="play-video"
-              class="flex justify-center items-center h-full"
+              class="flex justify-center items-center h-574"
               href="#"
             >
               <svg class="icon" width="80" height="80">
@@ -188,11 +196,16 @@
           </div>
           <iframe
             id="video"
-            src="https://player.vimeo.com/video/132931776?title=0&byline=0"
-            width="100%"
-            height="574px"
             ;
+            src="https://player.vimeo.com/video/132931776?title=0&byline=0"
+            ;
+            width="100%"
+            ;
+            height="100%"
+            ;
+            class="aspect-video"
             frameborder="0"
+            ;
             webkitallowfullscreen
             mozallowfullscreen
             allowfullscreen
@@ -203,7 +216,7 @@
       <section class="bg-orange pt-10 pb-16">
         <div class="section">
           <div class="flex justify-center items-center flex-col mb-5">
-            <h2 class="h2-subtitle mb-5 text-xl lg:text-5xl text-center">
+            <h2 class="leading-140 mb-5 text-3xl lg:text-5xl text-center">
               Prostě něco neskutečného!
             </h2>
 
@@ -217,14 +230,12 @@
           </div>
         </div>
         <div
-          class="flex justify-center items-center max-custom flex-row flex-wrap gap-3.5 mt-12 px-3.5 py-3.5"
+          class="flex justify-center items-between max-custom flex-row flex-wrap gap-3.5 mt-12 px-3.5 py-3.5"
         >
-          <article
-            class="w-250 bg-white flex flex-col flex-1 px-5 py-5 rounded-lg"
-          >
+          <article class="w-250 bg-white flex flex-col px-5 py-5 rounded-lg">
             <img src="../assets/img/vino.png" alt="Víno" />
             <h2
-              class="sans-serif font-bold h1-title text-0xl text-center py-9 px-3.5 mx-auto"
+              class="sans-serif font-bold h1-title text-0xl text-center grow py-9 px-3.5 mx-auto"
             >
               Müller Thurgau 2016 kabinetní víno
             </h2>
@@ -240,12 +251,10 @@
               </a>
             </div>
           </article>
-          <article
-            class="w-250 bg-white flex flex-col flex-1 px-5 py-5 rounded-lg"
-          >
+          <article class="w-250 bg-white flex flex-col px-5 py-5 rounded-lg">
             <img src="../assets/img/vino.png" alt="Víno" />
             <h2
-              class="sans-serif font-bold h1-title text-0xl text-center py-9 px-3.5 mx-auto"
+              class="sans-serif font-bold h1-title text-0xl text-center grow py-9 px-3.5 mx-auto"
             >
               Müller Thurgau 2016 kabinetní víno
             </h2>
@@ -261,12 +270,10 @@
               </a>
             </div>
           </article>
-          <article
-            class="w-250 bg-white flex flex-col flex-1 px-5 py-5 rounded-lg"
-          >
+          <article class="w-250 bg-white flex flex-col px-5 py-5 rounded-lg">
             <img src="../assets/img/vino.png" alt="Víno" />
             <h2
-              class="sans-serif font-bold h1-title text-0xl text-center py-9 px-3.5 mx-auto"
+              class="sans-serif font-bold h1-title text-0xl text-center grow py-9 px-3.5 mx-auto"
             >
               Müller Thurgau 2016 kabinetní víno
             </h2>
@@ -282,12 +289,10 @@
               </a>
             </div>
           </article>
-          <article
-            class="w-250 bg-white flex flex-col flex-1 px-5 py-5 rounded-lg"
-          >
+          <article class="w-250 bg-white flex flex-col px-5 py-5 rounded-lg">
             <img src="../assets/img/vino.png" alt="Víno" />
             <h2
-              class="sans-serif font-bold h1-title text-0xl text-center py-9 px-3.5 mx-auto"
+              class="sans-serif font-bold h1-title text-0xl text-center grow py-9 px-3.5 mx-auto"
             >
               Müller Thurgau 2016 kabinetní víno
             </h2>
@@ -310,7 +315,7 @@
         <div class="swiper-button-next"></div>
 
         <div class="w-custom-73 mx-auto">
-          <h2 class="h2-subtitle mb-12 mt-12 text-xl lg:text-5xl text-left">
+          <h2 class="leading-140 mb-12 mt-12 text-3xl lg:text-5xl text-left">
             Co je u nás nového
           </h2>
           <div class="swiper-container">
@@ -326,9 +331,35 @@
                     class="absolute rounded-lg top-0 left-0 bottom-0 right-0 bg-coverGradient"
                   >
                     <div
-                      class="flex flex-col text-orangeLight justify-end h-full max-w-full px-12 py-12"
+                      class="flex flex-col text-orangeLight justify-end h-full max-w-full px-3.5 py-3.5 lg:px-12 lg:py-12"
                     >
-                      <h2 class="sans-serif lg:text-2xl h1-title mb-3">
+                      <h2
+                        class="sans-serif text-1xl lg:text-2xl leading-400 mb-3"
+                      >
+                        Lorem ipsum dolor sit amet, consectetuer
+                      </h2>
+                      <span class="text-white h1-title">12.9.2024</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide w-full rounded-lg">
+                <div class="relative rounded-lg">
+                  <img
+                    class="h-auto w-full rounded-lg"
+                    src="../assets/img/swiper-placeholder.png"
+                    alt="Swiper placeholder"
+                  />
+                  <div
+                    class="absolute rounded-lg top-0 left-0 bottom-0 right-0 bg-coverGradient"
+                  >
+                    <div
+                      class="flex flex-col text-orangeLight justify-end h-full max-w-full px-3.5 py-3.5 lg:px-12 lg:py-12"
+                    >
+                      <h2
+                        class="sans-serif text-1xl lg:text-2xl leading-400 mb-3"
+                      >
                         Lorem ipsum dolor sit amet, consectetuer
                       </h2>
                       <span class="text-white h1-title">12.9.2024</span>
@@ -347,9 +378,34 @@
                     class="absolute rounded-lg top-0 left-0 bottom-0 right-0 bg-coverGradient"
                   >
                     <div
-                      class="flex flex-col text-orangeLight justify-end h-full max-w-full px-12 py-12"
+                      class="flex flex-col text-orangeLight justify-end h-full max-w-full px-3.5 py-3.5 lg:px-12 lg:py-12"
                     >
-                      <h2 class="sans-serif lg:text-2xl h1-title mb-3">
+                      <h2
+                        class="sans-serif text-1xl lg:text-2xl leading-400 mb-3"
+                      >
+                        Lorem ipsum dolor sit amet, consectetuer
+                      </h2>
+                      <span class="text-white leading-140">12.9.2024</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide w-full rounded-lg">
+                <div class="relative rounded-lg">
+                  <img
+                    class="h-auto w-full rounded-lg"
+                    src="../assets/img/swiper-placeholder.png"
+                    alt="Swiper placeholder"
+                  />
+                  <div
+                    class="absolute rounded-lg top-0 left-0 bottom-0 right-0 bg-coverGradient"
+                  >
+                    <div
+                      class="flex flex-col text-orangeLight justify-end h-full max-w-full px-3.5 py-3.5 lg:px-12 lg:py-12"
+                    >
+                      <h2
+                        class="sans-serif text-1xl lg:text-2xl leading-400 mb-3"
+                      >
                         Lorem ipsum dolor sit amet, consectetuer
                       </h2>
                       <span class="text-white h1-title">12.9.2024</span>
@@ -368,9 +424,11 @@
                     class="absolute rounded-lg top-0 left-0 bottom-0 right-0 bg-coverGradient"
                   >
                     <div
-                      class="flex flex-col text-orangeLight justify-end h-full max-w-full px-12 py-12"
+                      class="flex flex-col text-orangeLight justify-end h-full max-w-full px-3.5 py-3.5 lg:px-12 lg:py-12"
                     >
-                      <h2 class="sans-serif lg:text-2xl h1-title mb-3">
+                      <h2
+                        class="sans-serif text-1xl lg:text-2xl leading-400 mb-3"
+                      >
                         Lorem ipsum dolor sit amet, consectetuer
                       </h2>
                       <span class="text-white h1-title">12.9.2024</span>
@@ -389,30 +447,11 @@
                     class="absolute rounded-lg top-0 left-0 bottom-0 right-0 bg-coverGradient"
                   >
                     <div
-                      class="flex flex-col text-orangeLight justify-end h-full max-w-full px-12 py-12"
+                      class="flex flex-col text-orangeLight justify-end h-full max-w-full px-3.5 py-3.5 lg:px-12 lg:py-12"
                     >
-                      <h2 class="sans-serif lg:text-2xl h1-title mb-3">
-                        Lorem ipsum dolor sit amet, consectetuer
-                      </h2>
-                      <span class="text-white h1-title">12.9.2024</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide w-full rounded-lg">
-                <div class="relative rounded-lg">
-                  <img
-                    class="h-auto w-full rounded-lg"
-                    src="../assets/img/swiper-placeholder.png"
-                    alt="Swiper placeholder"
-                  />
-                  <div
-                    class="absolute rounded-lg top-0 left-0 bottom-0 right-0 bg-coverGradient"
-                  >
-                    <div
-                      class="flex flex-col text-orangeLight justify-end h-full max-w-full px-12 py-12"
-                    >
-                      <h2 class="sans-serif lg:text-2xl h1-title mb-3">
+                      <h2
+                        class="sans-serif text-1xl lg:text-2xl leading-400 mb-3"
+                      >
                         Lorem ipsum dolor sit amet, consectetuer
                       </h2>
                       <span class="text-white h1-title">12.9.2024</span>
@@ -443,7 +482,7 @@
           ></iframe>
         </div>
         <div class="w-full lg:w-2/5">
-          <h2 class="h2-subtitle mb-3.5 mt-3 text-xl lg:text-5xl text-left">
+          <h2 class="leading-140 mb-3.5 mt-3 text-3xl lg:text-5xl text-left">
             Kontaktujte nás
           </h2>
           <p class="lg:text-xl0 text-left">
@@ -455,11 +494,14 @@
           </p>
           <ul class="mt-10">
             <li class="flex gap-3.5 items-center mb-5">
-              <span>
-                <svg class="icon" width="54" height="54">
+              <span
+                class="rounded-full flex justify-center items-center bg-orangeLight square-54"
+              >
+                <svg width="19" height="24" class="fill-orangeDark">
                   <use href="../assets/svg/sprite.svg#icon-location"></use>
                 </svg>
               </span>
+
               <div class="flex flex-col">
                 <span class="font-bold text-black lg:text-1xl leading-7">
                   DAVINUS s.r.o
@@ -468,8 +510,10 @@
               </div>
             </li>
             <li class="flex gap-3.5 items-center mb-5">
-              <span>
-                <svg class="icon" width="54" height="54">
+              <span
+                class="rounded-full flex justify-center items-center bg-orangeLight square-54"
+              >
+                <svg class="fill-orangeDark" width="20.88" height="20.88">
                   <use href="../assets/svg/sprite.svg#icon-phone"></use>
                 </svg>
               </span>
@@ -481,8 +525,10 @@
               </a>
             </li>
             <li class="flex gap-3.5 items-center mb-5">
-              <span>
-                <svg class="icon" width="54" height="54">
+              <span
+                class="rounded-full flex justify-center items-center bg-orangeLight square-54"
+              >
+                <svg class="fill-orangeDark" width="22" height="17">
                   <use href="../assets/svg/sprite.svg#icon-mail"></use>
                 </svg>
               </span>
