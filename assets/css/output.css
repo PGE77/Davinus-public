@@ -1132,7 +1132,7 @@ body{
 
 .swiper-container {
   width: calc(50% + 50vw);
-  height: 600px;
+  height: 500px;
 }
 
 .w-custom-73{
@@ -1140,7 +1140,7 @@ body{
 }
 
 .custom-pagination {
-  bottom: 100px !important;
+  bottom: 50px !important;
   width: calc((100% - 50vw) * 2) !important;
 }
 
