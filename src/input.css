@@ -43,7 +43,7 @@ body {
 
 .p-subtitle {
 
-    @apply leading-7 lg:leading-[140%] text-0xl font-light tracking-[6%] max-w-[775px];
+    @apply leading-7 lg:leading-[140%]  font-light tracking-[6%] max-w-[775px];
 
 
 }

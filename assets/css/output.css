@@ -645,16 +645,12 @@ video {
   margin-top: 3rem;
 }
 
-.mt-6{
-  margin-top: 1.5rem;
+.mt-3{
+  margin-top: 0.75rem;
 }
 
 .mt-auto{
   margin-top: auto;
-}
-
-.mt-3{
-  margin-top: 0.75rem;
 }
 
 .block{
@@ -1015,7 +1011,6 @@ body{
 
 .p-subtitle{
   max-width: 775px;
-  font-size: 17px;
   font-weight: 300;
   line-height: 1.75rem;
   letter-spacing: 6%;
@@ -1173,6 +1168,14 @@ body{
     padding-top: 2rem;
   }
 
+  .lg\:text-0xl{
+    font-size: 17px;
+  }
+
+  .lg\:text-2xl{
+    font-size: 24px;
+  }
+
   .lg\:text-4xl{
     font-size: 38px;
   }
@@ -1193,7 +1196,15 @@ body{
     font-size: 20px;
   }
 
-  .lg\:text-2xl{
-    font-size: 24px;
+  .lg\:text-xl0{
+    font-size: 16px;
+  }
+
+  .lg\:text-1xl{
+    font-size: 18px;
+  }
+
+  .lg\:text-md{
+    font-size: 14px;
   }
 }
