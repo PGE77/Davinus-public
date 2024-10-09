@@ -1190,6 +1190,14 @@ body{
   height: 13.27px !important;
 }
 
+.swiper-slide {
+  width: auto;
+}
+
+.swiper-slide img {
+  height: 400px;
+}
+
 @media (min-width: 768px){
   .md\:pt-0{
     padding-top: 0px;

@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const swiper = new Swiper(".swiper-container", {
         slidesPerView: "2.5",
         spaceBetween: 41,
+        autoHeight: true,
+        slidesPerView: 'auto',
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -45,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
       });
 
-      
+
 
 
 

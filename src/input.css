@@ -122,13 +122,6 @@ body {
     @apply h-[600px];
 }
 
-@media (max-width: 480px) {
-    .swiper-container {
-        width: 100%;
-        height: 330px !important;
-    }
-}
-
 
 
 .w-custom-73 {
@@ -188,3 +181,10 @@ body {
 
 
 }
+
+.swiper-slide {
+    width: auto;
+  }
+  .swiper-slide img {
+    height: 400px;
+  }
