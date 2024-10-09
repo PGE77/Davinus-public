@@ -892,6 +892,18 @@ video {
   padding-top: 4rem;
 }
 
+.pb-20{
+  padding-bottom: 5rem;
+}
+
+.pb-64{
+  padding-bottom: 16rem;
+}
+
+.pb-48{
+  padding-bottom: 12rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1246,6 +1258,10 @@ body{
 
   .lg\:pt-8{
     padding-top: 2rem;
+  }
+
+  .lg\:pb-96{
+    padding-bottom: 24rem;
   }
 
   .lg\:text-0xl{
