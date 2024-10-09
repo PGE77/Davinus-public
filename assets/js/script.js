@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const swiper = new Swiper(".swiper-container", {
         slidesPerView: "2.5",
-        spaceBetween: 20,
+        spaceBetween: 41,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -28,11 +28,11 @@ document.addEventListener('DOMContentLoaded', function() {
         breakpoints: {
             1920: {
               slidesPerView: 2.5,
-              spaceBetween: 20
+              spaceBetween: 41
             },
             1024: {
               slidesPerView: 2.5,
-              spaceBetween: 15
+              spaceBetween: 41
             },
             664: {
               slidesPerView: 1.5,

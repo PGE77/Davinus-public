@@ -8,6 +8,7 @@ module.exports = {
       black: "#333333",
       orange: "#FEF5E4",
       orangeLight: "#FFE3C1",
+      
     },
     fontSize: {
       xxs: "10px",
@@ -15,6 +16,7 @@ module.exports = {
       sm: "13px",
       md: "14px",
       base: "15px",
+      "xl0":"16px",
       "0xl": "17px",
       "1xl": "18px",
       "xl": "20px",
