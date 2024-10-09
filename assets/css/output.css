@@ -892,6 +892,14 @@ video {
   padding-top: 4rem;
 }
 
+.pb-3{
+  padding-bottom: 0.75rem;
+}
+
+.pt-3\.5{
+  padding-top: 0.875rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1263,6 +1271,10 @@ body{
 
   .lg\:pt-8{
     padding-top: 2rem;
+  }
+
+  .lg\:pb-8{
+    padding-bottom: 2rem;
   }
 
   .lg\:text-0xl{
