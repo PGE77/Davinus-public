@@ -32,12 +32,16 @@ document.addEventListener('DOMContentLoaded', function() {
               slidesPerView: 2.5,
               spaceBetween: 41
             },
+            1280: {
+                slidesPerView: 2.5,
+                spaceBetween: 41
+              },
             1024: {
-              slidesPerView: 2.5,
+              slidesPerView: 1.5,
               spaceBetween: 41
             },
             664: {
-              slidesPerView: 1.5,
+              slidesPerView: 1,
               spaceBetween: 15
             },
             0: {
