@@ -80,8 +80,8 @@ body {
 
 }
 
-.w-280{
-@apply w-[280px];
+.w-280 {
+    @apply w-[280px];
 
 
 }
@@ -190,7 +190,25 @@ body {
 
 .swiper-slide {
     width: auto;
-  }
-  .swiper-slide img {
-    height: 400px;
-  }
+}
+
+.swiper-slide img {
+    height:400px;
+}
+
+.square-83 {
+
+    @apply w-[83px] h-[83px];
+}
+
+.rotate-custom-arrow{
+   @apply rotate-[315deg];
+   transform-origin: center;
+
+}
+
+.top-half{
+
+@apply top-[42px];
+
+}

@@ -657,6 +657,14 @@ video {
   margin-top: auto;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .block{
   display: block;
 }
@@ -714,8 +722,29 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.rotate-45{
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@keyframes bounce{
+  0%, 100%{
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50%{
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+.animate-bounce{
+  animation: bounce 1s infinite;
 }
 
 .flex-row{
@@ -818,6 +847,10 @@ video {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.79) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
+.fill-black{
+  fill: #333333;
+}
+
 .fill-orangeDark{
   fill: #C57847;
 }
@@ -876,12 +909,12 @@ video {
   padding-bottom: 4rem;
 }
 
-.pb-48{
-  padding-bottom: 12rem;
+.pb-3\.5{
+  padding-bottom: 0.875rem;
 }
 
-.pb-8{
-  padding-bottom: 2rem;
+.pb-48{
+  padding-bottom: 12rem;
 }
 
 .pt-10{
@@ -890,10 +923,6 @@ video {
 
 .pt-16{
   padding-top: 4rem;
-}
-
-.pb-3{
-  padding-bottom: 0.75rem;
 }
 
 .pt-3\.5{
@@ -1208,7 +1237,22 @@ body{
 }
 
 .swiper-slide img {
-  height: 400px;
+  height:400px;
+}
+
+.square-83{
+  height: 83px;
+  width: 83px;
+}
+
+.rotate-custom-arrow{
+  --tw-rotate: 315deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transform-origin: center;
+}
+
+.top-half{
+  top: 42px;
 }
 
 @media (min-width: 768px){
@@ -1265,16 +1309,20 @@ body{
     padding-bottom: 3rem;
   }
 
+  .lg\:pb-8{
+    padding-bottom: 2rem;
+  }
+
   .lg\:pb-96{
     padding-bottom: 24rem;
   }
 
-  .lg\:pt-8{
-    padding-top: 2rem;
+  .lg\:pt-16{
+    padding-top: 4rem;
   }
 
-  .lg\:pb-8{
-    padding-bottom: 2rem;
+  .lg\:pt-8{
+    padding-top: 2rem;
   }
 
   .lg\:text-0xl{
