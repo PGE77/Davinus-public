@@ -45,13 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
       });
 
-      document.querySelector('.swiper-button-prev-custom').addEventListener('click', function() {
-        mySwiper.slidePrev(); // slidePrev() přesune Swiper na předchozí slide
-      });
-
-      document.querySelector('.swiper-button-next-custom').addEventListener('click', function() {
-        mySwiper.slideNext(); // slideNext() přesune Swiper na další slide
-      });
+      
 
 
 
