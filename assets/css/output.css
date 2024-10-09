@@ -621,6 +621,10 @@ video {
   margin-right: auto;
 }
 
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .mb-12{
   margin-bottom: 3rem;
 }
@@ -655,14 +659,6 @@ video {
 
 .mt-auto{
   margin-top: auto;
-}
-
-.mb-8{
-  margin-bottom: 2rem;
-}
-
-.mb-10{
-  margin-bottom: 2.5rem;
 }
 
 .block{
@@ -1082,7 +1078,7 @@ body{
 
 @media (min-width: 1600px){
   .custom-img-position{
-    left: 460px;
+    left: 376px;
     bottom: 145px;
   }
 }
@@ -1262,6 +1258,15 @@ body{
 }
 
 @media (min-width: 1024px){
+  .lg\:right-32{
+    right: 8rem;
+  }
+
+  .lg\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .lg\:mb-40{
     margin-bottom: 10rem;
   }
