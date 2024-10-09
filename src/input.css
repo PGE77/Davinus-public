@@ -27,7 +27,7 @@ body {
 }
 
 .section {
-    @apply max-w-[1486px] mx-auto px-2.5;
+    @apply max-w-[1486px] mx-auto px-3.5;
 }
 
 .leading-120 {
@@ -50,7 +50,7 @@ body {
 
 .custom-img-position {
 
-    @apply lg:-bottom-[-80px] lg:-left-[-120px] xl:-left-[-250px] 3xl:-left-[-400px];
+    @apply bottom-[73px] left-[100px] lg:-bottom-[-80px] lg:-left-[-120px] xl:-left-[-250px] 3xl:left-[460px] 3xl:bottom-[145px];
 
 
 }
@@ -75,13 +75,19 @@ body {
 }
 
 .w-custom-498 {
-    @apply w-full lg:w-[498px];
+    @apply w-[250px] lg:w-[498px];
+
+
+}
+
+.w-280{
+@apply w-[280px];
 
 
 }
 
 .w-custom-388 {
-    @apply w-full lg:w-[388px];
+    @apply w-[190px] lg:w-[388px];
 
 
 }
