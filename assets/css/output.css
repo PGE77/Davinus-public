@@ -661,10 +661,6 @@ video {
   margin-top: auto;
 }
 
-.block{
-  display: block;
-}
-
 .flex{
   display: flex;
 }
@@ -1065,7 +1061,7 @@ body{
 
 @media (min-width: 1024px){
   .custom-img-position{
-    bottom: 80px;
+    bottom: 140px;
     left: 120px;
   }
 }

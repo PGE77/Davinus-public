@@ -55,7 +55,7 @@ body {
 
 .custom-img-position {
 
-    @apply bottom-[73px] left-[100px] lg:-bottom-[-80px] lg:-left-[-120px] xl:-left-[-250px] 3xl:left-[376px] 3xl:bottom-[145px];
+    @apply bottom-[73px] left-[100px] lg:-bottom-[-140px] lg:-left-[-120px] xl:-left-[-250px] 3xl:left-[376px] 3xl:bottom-[145px];
 
 
 }
