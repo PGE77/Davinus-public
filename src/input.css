@@ -199,6 +199,8 @@ body {
 
 .swiper-slide img {
     height: 400px;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .square-83 {

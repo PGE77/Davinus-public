@@ -1230,6 +1230,9 @@ body{
 
 .swiper-slide img {
   height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
 }
 
 .square-83{
